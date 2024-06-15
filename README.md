@@ -20,7 +20,6 @@
 <!-- <p align="center">
 <img src="asset/teaser.gif" width="1024px"/>
 </p> -->
-./asset/teaser.mp4
 
 ## 📈 V2VBench
 [(🚧 Comming soon) Leaderboard](doc/leaderboard.md)
