@@ -1,0 +1,14 @@
+model:
+  num_scales: 1
+  upsample_factor: 8
+  feature_channels: 128
+  attention_type: swin
+  num_transformer_layers: 6
+  ffn_dim_expansion: 4
+  num_head: 1
+
+data:
+  dims:
+    - 3
+    - 512
+    - 512

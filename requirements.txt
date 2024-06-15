@@ -1,0 +1,11 @@
+decord
+torch~=1.13
+torchvision
+transformers>=4.32.1
+scipy
+numpy
+tqdm
+timm
+einops
+pandas
+simple-aesthetics-predictor
