@@ -27,12 +27,13 @@ class ViclipTextAlignment(BaseEvaluator):
         index_file: Path, 
         edit_video_dir: Path,
         reference_video_dir: Path,
+        edit_prompt: str,
         device: torch.device,
         pretrained_tokenizer: str = None,
         pretrained_checkpoint: str = None,
         stride: int = 3,  # accept 8 frames as input
     ):
-        super().__init__(index_file, edit_video_dir, None, device, stride=stride)
+        super().__init__(index_file, edit_video_dir, None, edit_prompt, device, stride=stride)
         pretrained_tokenizer = pretrained_tokenizer or self.pretrained_tokenizer
         pretrained_checkpoint = pretrained_checkpoint or self.pretrained_checkpoint
 

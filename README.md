@@ -26,7 +26,7 @@ https://github.com/wenhao728/awesome-diffusion-v2v/assets/65353366/fd42e40f-265d
 
 
 ## 📈 V2VBench
-[(🚧 Comming soon) Leaderboard](doc/leaderboard.md)
+[Leaderboard](doc/leaderboard.md)
 
 V2VBench is a comprehensive benchmark designed to evaluate video editing methods. It consists of:
 - 50 standardized videos across 5 categories, and

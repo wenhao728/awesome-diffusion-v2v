@@ -1,5 +1,5 @@
 # 📈 V2VBench
-[(🚧 Comming soon) Leaderboard](./leaderboard.md)
+[Leaderboard](./leaderboard.md)
 
 ## Installation
 Clone the repository:
@@ -31,18 +31,15 @@ The `./checkpoints` directory should contain the following files:
 ```
 
 ## Run Evaluation
+### Video format
+Videos can be provided either as "video files" (e.g. `video_name.mp4`, `video_name.gif`) or "directories containing video frame images" with filenames indicating the frame number (e.g. `video_name/01.jpg`, `video_name/02.jpg`, ...).
 
-### (WIP) Single Video Evaluation
-```python
-```
-
-### Batch Evaluation
-Check the [Prepare Data](#optional-prepare-data) section to prepare the data for batch evaluation.
-Then, simply run the following snippet to evaluate the edited videos:
+### Single Video Evaluation
+Run the following snippet to evaluate one edited video:
 ```python
 import logging
 
-from evaluate import EvaluatorWrapper
+from v2vbench import EvaluatorWrapper
 
 logging.basicConfig(
     level=logging.INFO,  # Change it to logging.DEBUG if you want to troubleshoot
@@ -50,16 +47,42 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(sys.stdout),]
 )
 
-evaluation = EvaluatorWrapper(
-    index_file='data_example/config.yaml',
-    edit_video_dir='data_example/edited_videos',
-    reference_video_dir='/path/to/source_videos',
-    metrics=[
-        'aesthetic_score', 'clip_consistency', 'dino_consistency', 'dover_score',
-        'clip_text_alignment', 'pick_score', 'viclip_text_alignment', 'motion_alignment',
-    ], # or 'all' for all metrics
+evaluation = EvaluatorWrapper(metrics='all')  # 'all' for all metrics
+# print(EvaluatorWrapper.all_metrics)  # list all available metrics
+
+results = evaluation.evaluate(
+    edit_video='/path/to/edited_video',
+    reference_video='/path/to/source_video',
+    edit_prompt='<edit prompt>',
+    output_dir='/path/to/save/results',
 )
-results = evaluation.evaluate(output_dir='/path/to/write/results')
+```
+
+### Batch Evaluation
+Check the [Prepare Data](#optional-prepare-data) section to prepare the data for batch evaluation.
+Then, simply run the following snippet to evaluate a batch of edited videos:
+```python
+import logging
+
+from v2vbench import EvaluatorWrapper
+
+logging.basicConfig(
+    level=logging.INFO,  # Change it to logging.DEBUG if you want to troubleshoot
+    format="%(asctime)s [%(levelname)s] %(message)s (%(filename)s:%(lineno)d)",
+    handlers=[logging.StreamHandler(sys.stdout),]
+)
+
+evaluation = EvaluatorWrapper(metrics='all')  # 'all' for all metrics
+# print(EvaluatorWrapper.all_metrics)  # list all available metrics
+
+results = evaluation.evaluate(
+    edit_video='/path/to/edited_videos',
+    reference_video='/path/to/source_videos',
+    index_file='/path/to/config.yaml',
+    output_dir='/path/to/save/results',
+    # it is recommended to cache the flow of source videos for motion_alignment to avoid redundant computation
+    evaluator_kwargs={'motion_alignment': {'cache_flow': True}},
+)
 ```
 
 ## (Optional) Prepare Data
@@ -76,10 +99,10 @@ edit:
 # ... more edit prompts
 ```
 ### Source Videos
-The source videos for reference can be provided either as `video files` or as `directories containing video frame images` with filenames indicating the frame number. The video files or directories should be named according to the `video_id` specified in the configuration file.
+The source videos for reference should be named according to the `video_id` specified in the configuration file.
 
 ### Edited Videos
-For evaluation, the edited videos or video frame directories should be placed in the directory named according to the `video_id` specified in the configuration file. Each edited video should be named according to the edit prompt index.
+For evaluation, the edited videos should be placed in the directory named according to the `video_id` specified in the configuration file. Each edited video should be named according to the edit prompt index.
 
 
 ## Shoutouts
@@ -90,7 +113,8 @@ This repository is inspired by the following open-source projects:
 - [DINO-v2](https://github.com/facebookresearch/dinov2)
 - [DOVER](https://github.com/VQAssessment/DOVER)
 - [GMFlow](https://github.com/haofeixu/gmflow)
-- [ViCLIP](https://github.com/OpenGVLab/InternVideo) 
+- [ViCLIP](https://github.com/OpenGVLab/InternVideo)
 - [PickScore](https://github.com/yuvalkirstain/PickScore)
+- [VBench]()
 
 We extend our gratitude to the authors for their exceptional work and open-source contributions.

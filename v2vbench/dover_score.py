@@ -27,11 +27,12 @@ class DoverScore(BaseEvaluator):
         index_file: Path, 
         edit_video_dir: Path,
         reference_video_dir: Path,
+        edit_prompt: str,
         device: torch.device,
         pretrained_config_file: str = None,
         pretrained_checkpoint: str = None,
     ):
-        super().__init__(index_file, edit_video_dir, None, device)
+        super().__init__(index_file, edit_video_dir, None, edit_prompt, device)
 
         pretrained_config_file = pretrained_config_file or self.pretrained_config_file
         pretrained_checkpoint = pretrained_checkpoint or self.pretrained_checkpoint

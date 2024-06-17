@@ -25,10 +25,11 @@ class DinoConsistency(BaseEvaluator):
         index_file: Path, 
         edit_video_dir: Path,
         reference_video_dir: Path,
+        edit_prompt: str,
         device: torch.device,
         pretrained_model_name: str = None,
     ):
-        super().__init__(index_file, edit_video_dir, None, device)
+        super().__init__(index_file, edit_video_dir, None, edit_prompt, device)
         pretrained_model_name = pretrained_model_name or self.pretrained_model_name
         logger.debug(f"Loding model {pretrained_model_name}")
         self.preprocessor = BitImageProcessor.from_pretrained(pretrained_model_name)
