@@ -21,6 +21,10 @@
 <img src="asset/teaser.gif" width="1024px"/>
 </p> -->
 
+
+https://github.com/wenhao728/awesome-diffusion-v2v/assets/65353366/fd42e40f-265d-4d72-8dc1-bf74d00fe87b
+
+
 ## 📈 V2VBench
 [(🚧 Comming soon) Leaderboard](doc/leaderboard.md)
 
