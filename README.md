@@ -2,20 +2,21 @@
 
 <p align="center">
 <a href="https://github.com/wenhao728/awesome-diffusion-v2v"><img  src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" ></a>
-<a href="https://link/to/arxiv"><img  src="https://img.shields.io/badge/arXiv-commingsoon-B31B1B.svg"></a>
+<a href="https://arxiv.org/abs/2407.07111"><img  src="https://img.shields.io/badge/arXiv-2407.07111-B31B1B.svg"></a>
 <a href="https://opensource.org/license/mit/"><img  src="https://img.shields.io/badge/license-MIT-blue"></a>
 <img  alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wenhao728/awesome-diffusion-v2v?style=social"></a>
 <!-- <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/wenhao728/awesome-diffusion-v2v?style=social"> -->
 <!-- <img alt="GitHub stars" src="https://img.shields.io/github/stars/wenhao728/awesome-diffusion-v2v?style=social"></a> -->
 </p>
 
-<!-- <p align="center">
-<a href="https://wenhao728.github.io/">Wenhao Sun</a>,
-<a>Rongcheng Tu</a>,
+<p align="center">
+<a href="https://github.com/wenhao728">Wenhao Sun</a>,
+<a href=https://github.com/rongchengtu1>Rong-Cheng Tu</a>,
+<a>Jingyi Liao</a>,
 <a>Dacheng Tao</a>
 <br>
 <em>Nanyang Technological University</em>
-</p> -->
+</p>
 
 <!-- <p align="center">
 <img src="asset/teaser.gif" width="1024px"/>
@@ -24,28 +25,6 @@
 
 https://github.com/wenhao728/awesome-diffusion-v2v/assets/65353366/fd42e40f-265d-4d72-8dc1-bf74d00fe87b
 
-
-## 📈 V2VBench
-[Leaderboard](doc/leaderboard.md)
-
-V2VBench is a comprehensive benchmark designed to evaluate video editing methods. It consists of:
-- 50 standardized videos across 5 categories, and
-- 3 editing prompts per video, encompassing 4 editing tasks: [(🚧 Comming soon) Download Dataset](https://path/to/v2vbench)
-- 8 evaluation metrics to assess the quality of edited videos: [Evaluation Metrics](doc/README.md)
-
-For detailed information, please refer to the accompanying paper.
-
-
-<!-- ## 🍻 Citation
-If you find this repository helpful, please consider citing our paper:
-```bibtex
-@article{sun2023v2vdiffusion,
-  title={Diffusion Model-Based Video Editing: A Survey},
-  author={xxx, xxx},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2024}
-}
-``` -->
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -64,7 +43,7 @@ If you find this repository helpful, please consider citing our paper:
     - [Point-Based Editing](#point-based-editing)
     - [Pose-Guided Human Action Editing](#pose-guided-human-action-edit)
 
-### Introduction
+## Introduction
 <p align="center">
 <img src="asset/taxonomy-repo.png" width="85%">
 <br><em>Overview of diffusion-based video editing model components.</em>
@@ -77,8 +56,8 @@ The diffusion process defines a Markov chain that progressively adds random nois
 - We then list [Canonical Representation](#canonical-representation) methods for efficient video representation.
 - Finally, [Novel Conditioning](#novel-conditioning) methods cover innovative conditioning techniques for video editing tasks.
 
-### Network and Training Paradigm
-#### Temporal Adaption
+## Network and Training Paradigm
+### Temporal Adaption
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation | [arXiv](https://arxiv.org/abs/2212.11565) | [Website](https://tuneavideo.github.io/), [GitHub](https://github.com/showlab/Tune-A-Video) | ICCV | Dec 2022 |
@@ -90,7 +69,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### Structure Conditioning
+### Structure Conditioning
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Structure and Content-Guided Video Synthesis with Diffusion Models | [arXiv](https://arxiv.org/abs/2302.03011) | [Website](https://research.runwayml.com/gen1) | Preprint | Feb 2023 |
@@ -105,7 +84,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### Training Modification
+### Training Modification
 
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
@@ -115,14 +94,14 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | Consistent Video-to-Video Transfer Using Synthetic Dataset | [arXiv](https://arxiv.org/abs/2311.00213) | [GitHub](https://github.com/amazon-science/instruct-video-to-video/tree/main) | ICLR | Nov 2023 |
 | VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2312.00845) | [Website](https://video-motion-customization.github.io/), [GitHub](https://github.com/HyeonHo99/Video-Motion-Customization) | CVPR | Dec 2023 |
 | SAVE: Protagonist Diversification with Structure Agnostic Video Editing | [arXiv](https://arxiv.org/abs/2312.02503) | [Website](https://ldynx.github.io/SAVE/), [GitHub](https://github.com/ldynx/SAVE) | Preprint | Dec 2023 |
-
+| VASE: Object-Centric Appearance and Shape Manipulation of Real Videos | [arXiv](https://arxiv.org/abs/2401.02473) | [Website](https://helia95.github.io/vase-website/), [GitHub](https://github.com/helia95/VASE) | Preprint | Jan 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-### Attention Feature Injection
+## Attention Feature Injection
 
-#### Inversion-Based Feature Injection
+### Inversion-Based Feature Injection
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Video-P2P: Video Editing with Cross-attention Control | [arXiv](https://arxiv.org/abs/2303.04761) | [Website](https://video-p2p.github.io/), [GitHub](https://github.com/dvlab-research/Video-P2P) | CVPR | Mar 2023 |
@@ -133,7 +112,9 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | UniEdit: A Unified Tuning-Free Framework for Video Motion and Appearance Editing | [arXiv](https://arxiv.org/abs/2402.13185) | [Website](https://jianhongbai.github.io/UniEdit/), [GitHub](https://github.com/JianhongBai/UniEdit) | Preprint | Feb 2023 |
 | AnyV2V: A Tuning-Free Framework For Any Video-to-Video Editing Tasks | [arXiv](https://arxiv.org/abs/2403.14468) | [Website](https://tiger-ai-lab.github.io/AnyV2V/), [GitHub](https://github.com/TIGER-AI-Lab/AnyV2V) | Preprint | Mar 2024 |
 
-#### Motion-Based Feature Injection
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Motion-Based Feature Injection
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | TokenFlow: Consistent Diffusion Features for Consistent Video Editing | [arXiv](https://arxiv.org/abs/2307.10373) | [Website](https://diffusion-tokenflow.github.io/), [GitHub](https://github.com/omerbt/TokenFlow) | ICLR | Jul 2023 |
@@ -143,9 +124,9 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Diffusion Latents Manipulation
+## Diffusion Latents Manipulation
 
-#### Latent Initialization
+### Latent Initialization
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators | [arXiv](https://arxiv.org/abs/2303.13439) | [Website](https://text2video-zero.github.io/), [GitHub](https://github.com/Picsart-AI-Research/Text2Video-Zero) | ICCV | Mar 2023 |
@@ -155,18 +136,19 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### Latent Transition
+### Latent Transition
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Pix2Video: Video Editing using Image Diffusion | [arXiv](https://arxiv.org/abs/2303.12688) | [Website](https://duyguceylan.github.io/pix2video.github.io/), [GitHub](https://github.com/duyguceylan/pix2video) | ICCV | Mar 2023 |
 | ControlVideo: Training-free Controllable Text-to-Video Generation | [arXiv](https://arxiv.org/abs/2305.13077) | [Website](https://controlvideov1.github.io/), [GitHub](https://github.com/YBYBZhang/ControlVideo) | ICLR | May 2023 |
 | Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation | [arXiv](https://arxiv.org/abs/2306.07954) | [Website](https://www.mmlab-ntu.com/project/rerender/), [GitHub](https://github.com/williamyang1991/Rerender_A_Video) | SIGGRAPH | Jun 2023 |
+| DiffSynth: Latent In-Iteration Deflickering for Realistic Video Synthesis | [arXiv](https://arxiv.org/abs/2308.03463) | [Website](https://anonymous456852.github.io/), [GitHub](https://github.com/alibaba/EasyNLP/tree/master/diffusion/DiffSynth) | Preprint | Aug 2023 |
 | RAVE: Randomized Noise Shuffling for Fast and Consistent Video Editing with Diffusion Models | [arXiv](https://arxiv.org/abs/2312.04524) | [Website](https://rave-video.github.io/), [GitHub](https://github.com/RehgLab/RAVE) | CVPR | Dec 2023 |
-
+| MotionClone: Training-Free Motion Cloning for Controllable Video Generation | [arXiv](https://arxiv.org/abs/2406.05338) | [Website](https://bujiazi.github.io/motionclone.github.io/), [GitHub](https://github.com/Bujiazi/MotionClone/) | Preprint | Jun 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Canonical Representation
+## Canonical Representation
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Shape-aware Text-driven Layered Video Editing | [Open Access](https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Shape-Aware_Text-Driven_Layered_Video_Editing_CVPR_2023_paper.pdf) | [Website](https://text-video-edit.github.io/), [GitHub](https://github.com/text-video-edit/shape-aware-text-driven-layered-video-editing-release) | CVPR | Jan 2023 |
@@ -179,9 +161,9 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Novel Conditioning
+## Novel Conditioning
 
-#### Point-Based Editing
+### Point-Based Editing
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | VideoSwap: Customized Video Subject Swapping with Interactive Semantic Point Correspondence | [arXiv]() | [Website](https://videoswap.github.io/), [GitHub](https://github.com/showlab/VideoSwap) | CVPR | Dec 2023 |
@@ -191,7 +173,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-#### Pose-Guided Human Action Editing
+### Pose-Guided Human Action Editing
 | Method | Paper | Project | Publication | Year | 
 |:------:|:-----:|:----:|:-----------:|:----:|
 | Follow Your Pose: Pose-Guided Text-to-Video Generation using Pose-Free Videos | [arXiv](https://arxiv.org/abs/2304.01186) | [Website](https://follow-your-pose.github.io/), [GitHub](https://github.com/mayuelala/FollowYourPose) | AAAI | Apr 2023 |
@@ -203,3 +185,26 @@ The diffusion process defines a Markov chain that progressively adds random nois
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📈 V2VBench
+[Leaderboard](doc/leaderboard.md)
+
+V2VBench is a comprehensive benchmark designed to evaluate video editing methods. It consists of:
+- 50 standardized videos across 5 categories, and
+- 3 editing prompts per video, encompassing 4 editing tasks: [(🚧 Comming soon) Download Dataset](https://path/to/v2vbench)
+- 8 evaluation metrics to assess the quality of edited videos: [Evaluation Metrics](doc/README.md)
+
+For detailed information, please refer to the accompanying paper.
+
+
+## 🍻 Citation
+If you find this repository helpful, please consider citing our paper:
+```bibtex
+@article{sun2024v2vsurvey,
+    author = {Wenhao Sun and Rong-Cheng Tu and Jingyi Liao and Dacheng Tao},
+    title = {Diffusion Model-Based Video Editing: A Survey},
+    journal = {CoRR},
+    volume = {abs/2407.07111},
+    year = {2024}
+}
+```
