@@ -119,7 +119,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 |:------:|:-----:|:----:|:-----------:|:----:|
 | TokenFlow: Consistent Diffusion Features for Consistent Video Editing | [arXiv](https://arxiv.org/abs/2307.10373) | [Website](https://diffusion-tokenflow.github.io/), [GitHub](https://github.com/omerbt/TokenFlow) | ICLR | Jul 2023 |
 | FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing | [arXiv](https://arxiv.org/abs/2310.05922) | [Website](https://flatten-video-editing.github.io/), [GitHub](https://github.com/yrcong/flatten) | ICLR | Oct 2023 |
-| FRESCO: Spatial-Temporal Correspondence for Zero-Shot Video Translation | [arXiv]() | [Website](https://www.mmlab-ntu.com/project/fresco/), [GitHub](https://github.com/williamyang1991/FRESCO) | CVPR | Mar 2024 |
+| FRESCO: Spatial-Temporal Correspondence for Zero-Shot Video Translation | [arXiv](https://arxiv.org/abs/2403.12962) | [Website](https://www.mmlab-ntu.com/project/fresco/), [GitHub](https://github.com/williamyang1991/FRESCO) | CVPR | Mar 2024 |
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
