@@ -81,6 +81,8 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | LAMP: Learn A Motion Pattern for Few-Shot-Based Video Generation | [arXiv](https://arxiv.org/abs/2310.10769) | [Website](https://rq-wu.github.io/projects/LAMP/index.html), [GitHub](https://github.com/RQ-Wu/LAMP) | Preprint | Oct 2023 |
 | Motion-Conditioned Image Animation for Video Editing | [arXiv](https://arxiv.org/abs/2311.18827) | [Website](https://facebookresearch.github.io/MoCA/), [GitHub](https://github.com/facebookresearch/MoCA) | Preprint | Nov 2023 |
 | FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis | [arXiv](https://arxiv.org/abs/2312.17681) | [Website](https://jeff-liangf.github.io/projects/flowvid/), [GitHub](https://github.com/Jeff-LiangF/FlowVid) | Preprint | Dec 2023 |
+| EVA: Zero-shot Accurate Attributes and Multi-Object Video Editing | [arXiv](https://arxiv.org/abs/2403.16111) | [Website](https://knightyxp.github.io/EVA/), [GitHub](https://github.com/knightyxp/EVA_Video_Edit) | Preprint | Mar 2024 |
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,6 +93,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | Dreamix: Video Diffusion Models are General Video Editors | [arXiv](https://arxiv.org/abs/2302.01329) | [Website](https://dreamix-video-editing.github.io/) | Preprint | Feb 2023 |
 | InstructVid2Vid: Controllable Video Editing with Natural Language Instructions | [arXiv](https://arxiv.org/abs/2305.12328) | | Preprint | May 2023 |
 | MotionDirector: Motion Customization of Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2310.08465) | [Website](https://showlab.github.io/MotionDirector/), [GitHub](https://github.com/showlab/MotionDirector) | Preprint | Oct 2023 |
+| VIDiff: Translating Videos via Multi-Modal Instructions with Diffusion Models | [arXiv](https://arxiv.org/abs/2311.18837) | [Website](https://chenhsing.github.io/VIDiff/), [GitHub](https://github.com/ChenHsing/VIDiff?tab=readme-ov-file) | Preprint | Nov 2023 |
 | Consistent Video-to-Video Transfer Using Synthetic Dataset | [arXiv](https://arxiv.org/abs/2311.00213) | [GitHub](https://github.com/amazon-science/instruct-video-to-video/tree/main) | ICLR | Nov 2023 |
 | VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2312.00845) | [Website](https://video-motion-customization.github.io/), [GitHub](https://github.com/HyeonHo99/Video-Motion-Customization) | CVPR | Dec 2023 |
 | SAVE: Protagonist Diversification with Structure Agnostic Video Editing | [arXiv](https://arxiv.org/abs/2312.02503) | [Website](https://ldynx.github.io/SAVE/), [GitHub](https://github.com/ldynx/SAVE) | Preprint | Dec 2023 |
@@ -132,6 +135,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Generators | [arXiv](https://arxiv.org/abs/2303.13439) | [Website](https://text2video-zero.github.io/), [GitHub](https://github.com/Picsart-AI-Research/Text2Video-Zero) | ICCV | Mar 2023 |
 | Control-A-Video: Controllable Text-to-Video Generation with Diffusion Models | [arXiv](https://arxiv.org/abs/2305.13840) | [Website](https://controlavideo.github.io/), [GitHub](https://github.com/Weifeng-Chen/control-a-video) | Preprint | May 2023 |
 | Video ControlNet: Towards Temporally Consistent Synthetic-to-Real Video Translation Using Conditional Image Diffusion Models | [arXiv](https://arxiv.org/abs/2305.19193) | | Preprint | May 2023 |
+| A Video is Worth 256 Bases: Spatial-Temporal Expectation-Maximization Inversion for Zero-Shot Video Editing | [arXiv](https://arxiv.org/abs/2312.05856) | [Website](https://stem-inv.github.io/page/), [GitHub](https://github.com/STEM-Inv/stem-inv) | CVPR | Dec 2023 |
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -145,6 +149,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | DiffSynth: Latent In-Iteration Deflickering for Realistic Video Synthesis | [arXiv](https://arxiv.org/abs/2308.03463) | [Website](https://anonymous456852.github.io/), [GitHub](https://github.com/alibaba/EasyNLP/tree/master/diffusion/DiffSynth) | Preprint | Aug 2023 |
 | RAVE: Randomized Noise Shuffling for Fast and Consistent Video Editing with Diffusion Models | [arXiv](https://arxiv.org/abs/2312.04524) | [Website](https://rave-video.github.io/), [GitHub](https://github.com/RehgLab/RAVE) | CVPR | Dec 2023 |
 | MotionClone: Training-Free Motion Cloning for Controllable Video Generation | [arXiv](https://arxiv.org/abs/2406.05338) | [Website](https://bujiazi.github.io/motionclone.github.io/), [GitHub](https://github.com/Bujiazi/MotionClone/) | Preprint | Jun 2024 |
+| GenVideo: One-shot target-image and shape aware video editing using T2I diffusion models | [arXiv](https://arxiv.org/abs/2404.12541) | | CVPR | Apr 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -169,6 +174,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | VideoSwap: Customized Video Subject Swapping with Interactive Semantic Point Correspondence | [arXiv]() | [Website](https://videoswap.github.io/), [GitHub](https://github.com/showlab/VideoSwap) | CVPR | Dec 2023 |
 | DragVideo: Interactive Drag-style Video Editing | [arXiv](https://arxiv.org/abs/2312.02216) | [GitHub](https://github.com/RickySkywalker/DragVideo-Official) | Preprint | Dec 2023 |
 | Drag-A-Video: Non-rigid Video Editing with Point-based Interaction | [arXiv](https://arxiv.org/abs/2312.02936) | | Preprint | Dec 2023 |
+| MotionCtrl: A Unified and Flexible Motion Controller for Video Generation | [arXiv](https://arxiv.org/abs/2312.03641) | [GitHub](https://github.com/TencentARC/MotionCtrl), [Website](https://wzhouxiff.github.io/projects/MotionCtrl/) | Preprint | Dec 2023 |
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -182,7 +188,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | MagicPose: Realistic Human Poses and Facial Expressions Retargeting with Identity-aware Diffusion | [arXiv](https://arxiv.org/abs/2311.12052) | [Website](https://boese0601.github.io/magicdance/), [GitHub](https://github.com/Boese0601/MagicDance) | ICML | Nov 2023 |
 | MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model | [arXiv](https://arxiv.org/abs/2311.16498) | [Website](https://showlab.github.io/magicanimate/), [GitHub](https://github.com/magic-research/magic-animate) | Preprint | Nov 2023 |
 | Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation | [arXiv](https://arxiv.org/abs/2311.17117) | [Website](https://humanaigc.github.io/animate-anyone/), [Official GitHub](https://github.com/HumanAIGC/AnimateAnyone), [Community Implementation](https://github.com/MooreThreads/Moore-AnimateAnyone) | Preprint | Nov 2023 |
-
+| Zero-shot High-fidelity and Pose-controllable Character Animation | [arXiv](https://arxiv.org/abs/2404.13680) | | Preprint | Apr 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
