@@ -65,6 +65,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | SimDA: Simple Diffusion Adapter for Efficient Video Generation | [arXiv](https://arxiv.org/abs/2308.09710) | [Website](https://chenhsing.github.io/SimDA/), [GitHub](https://github.com/ChenHsing/SimDA) | Preprint | Aug 2023 |
 | VidToMe: Video Token Merging for Zero-Shot Video Editing | [arXiv](https://arxiv.org/abs/2312.10656) | [Website](https://vidtome-diffusion.github.io/), [GitHub](https://github.com/lixirui142/VidToMe) | Preprint | Dec 2023 |
 | Fairy: Fast Parallelized Instruction-Guided Video-to-Video Synthesis | [arXiv](https://arxiv.org/abs/2312.13834) | [Website](https://fairy-video2video.github.io/) | Preprint | Dec 2023 |
+| Video Editing via Factorized Diffusion Distillation | [arXiv](https://arxiv.org/abs/2403.09334) | [Website](https://fdd-video-edit.github.io/) | ECCV | Mar 2024 |
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -80,6 +81,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | Ground-A-Video: Zero-shot Grounded Video Editing using Text-to-image Diffusion Models | [arXiv](https://arxiv.org/abs/2310.01107) | [Website](https://ground-a-video.github.io/), [GitHub](https://github.com/Ground-A-Video/Ground-A-Video) | ICLR | Oct 2023 |
 | LAMP: Learn A Motion Pattern for Few-Shot-Based Video Generation | [arXiv](https://arxiv.org/abs/2310.10769) | [Website](https://rq-wu.github.io/projects/LAMP/index.html), [GitHub](https://github.com/RQ-Wu/LAMP) | Preprint | Oct 2023 |
 | Motion-Conditioned Image Animation for Video Editing | [arXiv](https://arxiv.org/abs/2311.18827) | [Website](https://facebookresearch.github.io/MoCA/), [GitHub](https://github.com/facebookresearch/MoCA) | Preprint | Nov 2023 |
+| MaskINT: Video Editing via Interpolative Non-autoregressive Masked Transformers | [arXiv](https://arxiv.org/abs/2312.12468) | [Website](https://maskint.github.io/) | CVPR | Dec 2023 |
 | FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis | [arXiv](https://arxiv.org/abs/2312.17681) | [Website](https://jeff-liangf.github.io/projects/flowvid/), [GitHub](https://github.com/Jeff-LiangF/FlowVid) | Preprint | Dec 2023 |
 | EVA: Zero-shot Accurate Attributes and Multi-Object Video Editing | [arXiv](https://arxiv.org/abs/2403.16111) | [Website](https://knightyxp.github.io/EVA/), [GitHub](https://github.com/knightyxp/EVA_Video_Edit) | Preprint | Mar 2024 |
 
@@ -98,6 +100,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2312.00845) | [Website](https://video-motion-customization.github.io/), [GitHub](https://github.com/HyeonHo99/Video-Motion-Customization) | CVPR | Dec 2023 |
 | SAVE: Protagonist Diversification with Structure Agnostic Video Editing | [arXiv](https://arxiv.org/abs/2312.02503) | [Website](https://ldynx.github.io/SAVE/), [GitHub](https://github.com/ldynx/SAVE) | Preprint | Dec 2023 |
 | VASE: Object-Centric Appearance and Shape Manipulation of Real Videos | [arXiv](https://arxiv.org/abs/2401.02473) | [Website](https://helia95.github.io/vase-website/), [GitHub](https://github.com/helia95/VASE) | Preprint | Jan 2024 |
+| Still-Moving: Customized Video Generation without Customized Video Data | [arXiv](https://arxiv.org/abs/2407.08674) | [Website](https://still-moving.github.io), [Community Implementation](https://github.com/harshbhatt7585/StillMoving?tab=readme-ov-file) | Preprint | Jul 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -122,6 +125,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 |:------:|:-----:|:----:|:-----------:|:----:|
 | TokenFlow: Consistent Diffusion Features for Consistent Video Editing | [arXiv](https://arxiv.org/abs/2307.10373) | [Website](https://diffusion-tokenflow.github.io/), [GitHub](https://github.com/omerbt/TokenFlow) | ICLR | Jul 2023 |
 | FLATTEN: optical FLow-guided ATTENtion for consistent text-to-video editing | [arXiv](https://arxiv.org/abs/2310.05922) | [Website](https://flatten-video-editing.github.io/), [GitHub](https://github.com/yrcong/flatten) | ICLR | Oct 2023 |
+| Space-Time Diffusion Features for Zero-Shot Text-Driven Motion Transfer | [arXiv](https://arxiv.org/abs/2311.17009) | [Website](https://diffusion-motion-transfer.github.io/), [GitHub](https://github.com/diffusion-motion-transfer/diffusion-motion-transfer) | CVPR | Nov 2023 |
 | FRESCO: Spatial-Temporal Correspondence for Zero-Shot Video Translation | [arXiv](https://arxiv.org/abs/2403.12962) | [Website](https://www.mmlab-ntu.com/project/fresco/), [GitHub](https://github.com/williamyang1991/FRESCO) | CVPR | Mar 2024 |
 
 
@@ -161,6 +165,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | CoDeF: Content Deformation Fields for Temporally Consistent Video Processing | [arXiv](https://arxiv.org/abs/2308.07926) | [Website](https://qiuyu96.github.io/CoDeF/), [GitHub](https://github.com/qiuyu96/CoDeF) | CVPR | Aug 2023 |
 | StableVideo: Text-driven Consistency-aware Diffusion Video Editing | [arXiv](https://arxiv.org/abs/2308.09592) | [GitHub](https://github.com/rese1f/StableVideo) | ICCV | Aug 2023 |
 | DiffusionAtlas: High-Fidelity Consistent Diffusion Video Editing | [arXiv](https://arxiv.org/abs/2312.03772) | [Website](https://diffusionatlas.github.io/) | Preprint | Dec 2023 |
+| Neural Video Fields Editing | [arXiv](https://arxiv.org/abs/2312.08882) | [Website](https://nvedit.github.io/), [GitHub](https://github.com/Ysz2022/NVEdit) | Preprint | Dec 2023 |
 
 
 
