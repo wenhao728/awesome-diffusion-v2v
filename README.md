@@ -198,11 +198,11 @@ The diffusion process defines a Markov chain that progressively adds random nois
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## 📈 V2VBench
-[Leaderboard](doc/leaderboard.md)
+**[Leaderboard](doc/leaderboard.md)**
 
 V2VBench is a comprehensive benchmark designed to evaluate video editing methods. It consists of:
 - 50 standardized videos across 5 categories, and
-- 3 editing prompts per video, encompassing 4 editing tasks: [(🚧 Comming soon) Download Dataset](https://path/to/v2vbench)
+- 3 editing prompts per video, encompassing 4 editing tasks: [Huggingface Datasets](https://huggingface.co/datasets/Wenhao-Sun/V2VBench)
 - 8 evaluation metrics to assess the quality of edited videos: [Evaluation Metrics](doc/README.md)
 
 For detailed information, please refer to the accompanying paper.

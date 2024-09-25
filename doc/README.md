@@ -87,7 +87,7 @@ results = evaluation.evaluate(
 
 ## (Optional) Prepare Data
 To evaluate a batch of editing results, the data should be organized in specified formats. 
-You can download the V2VBench dataset from [(🚧 Comming soon) Download Dataset](https://path/to/v2vbench) or use your customized data with the following format.
+You can download the V2VBench dataset from [Huggingface Datasets](https://huggingface.co/datasets/Wenhao-Sun/V2VBench) or use your customized data with the following format.
 
 ### Configuration
 The configuration file is a YAML file. And each video should be one entry of the `data` list. The following is an example of one entry:
@@ -115,6 +115,6 @@ This repository is inspired by the following open-source projects:
 - [GMFlow](https://github.com/haofeixu/gmflow)
 - [ViCLIP](https://github.com/OpenGVLab/InternVideo)
 - [PickScore](https://github.com/yuvalkirstain/PickScore)
-- [VBench]()
+- [VBench](https://github.com/Vchitect/VBench)
 
 We extend our gratitude to the authors for their exceptional work and open-source contributions.
