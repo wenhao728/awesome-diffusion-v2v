@@ -83,6 +83,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | LAMP: Learn A Motion Pattern for Few-Shot-Based Video Generation | [arXiv](https://arxiv.org/abs/2310.10769) | [Website](https://rq-wu.github.io/projects/LAMP/index.html), [GitHub](https://github.com/RQ-Wu/LAMP) | Preprint | Oct 2023 |
 | Motion-Conditioned Image Animation for Video Editing | [arXiv](https://arxiv.org/abs/2311.18827) | [Website](https://facebookresearch.github.io/MoCA/), [GitHub](https://github.com/facebookresearch/MoCA) | Preprint | Nov 2023 |
 | FlowVid: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis | [arXiv](https://arxiv.org/abs/2312.17681) | [Website](https://jeff-liangf.github.io/projects/flowvid/), [GitHub](https://github.com/Jeff-LiangF/FlowVid) | CVPR | Dec 2023 |
+| Diffutoon: High-Resolution Editable Toon Shading via Diffusion Models | [arXiv](https://arxiv.org/abs/2401.16224) | [Website](https://ecnu-cilab.github.io/DiffutoonProjectPage/) | IJCAI | Jan 2024 |
 | EVA: Zero-shot Accurate Attributes and Multi-Object Video Editing | [arXiv](https://arxiv.org/abs/2403.16111) | [Website](https://knightyxp.github.io/EVA/), [GitHub](https://github.com/knightyxp/EVA_Video_Edit) | Preprint | Mar 2024 |
 
 
@@ -99,8 +100,12 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | Consistent Video-to-Video Transfer Using Synthetic Dataset | [arXiv](https://arxiv.org/abs/2311.00213) | [GitHub](https://github.com/amazon-science/instruct-video-to-video/tree/main) | ICLR | Nov 2023 |
 | VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2312.00845) | [Website](https://video-motion-customization.github.io/), [GitHub](https://github.com/HyeonHo99/Video-Motion-Customization) | CVPR | Dec 2023 |
 | SAVE: Protagonist Diversification with Structure Agnostic Video Editing | [arXiv](https://arxiv.org/abs/2312.02503) | [Website](https://ldynx.github.io/SAVE/), [GitHub](https://github.com/ldynx/SAVE) | Preprint | Dec 2023 |
+| Customizing Motion in Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2312.04966) | [Website](https://joaanna.github.io/customizing_motion/) | Preprint | Dec 2023 |
 | VASE: Object-Centric Appearance and Shape Manipulation of Real Videos | [arXiv](https://arxiv.org/abs/2401.02473) | [Website](https://helia95.github.io/vase-website/), [GitHub](https://github.com/helia95/VASE) | Preprint | Jan 2024 |
+| Customize-A-Video: One-Shot Motion Customization of Text-to-Video Diffusion Models | [arXiv](https://arxiv.org/abs/2402.14780) | [Website](https://arxiv.org/abs/2402.14780), [GitHub](https://github.com/customize-a-video/customize-a-video) | ECCV | Feb 2024 |
+| EffiVED:Efficient Video Editing via Text-instruction Diffusion Models | [arXiv](https://arxiv.org/abs/2403.11568) | [GitHub](https://github.com/alibaba/EffiVED) | Preprint | Mar 2024 |
 | Still-Moving: Customized Video Generation without Customized Video Data | [arXiv](https://arxiv.org/abs/2407.08674) | [Website](https://still-moving.github.io), [Community Implementation](https://github.com/harshbhatt7585/StillMoving?tab=readme-ov-file) | Preprint | Jul 2024 |
+| Movie Gen: A Cast of Media Foundation Models | [arXiv](https://arxiv.org/abs/2410.13720) | [Website](https://ai.meta.com/research/movie-gen/), [GitHub](https://github.com/facebookresearch/MovieGenBench) | Preprint | Oct 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -115,7 +120,8 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | FateZero: Fusing Attentions for Zero-shot Text-based Video Editing | [arXiv](https://arxiv.org/abs/2303.09535) | [Website](https://fate-zero-edit.github.io/), [GitHub](https://github.com/ChenyangQiQi/FateZero) | ICCV | Mar 2023 |
 | Zero-Shot Video Editing Using Off-The-Shelf Image Diffusion Models | [arXiv](https://arxiv.org/abs/2303.17599) | [GitHub](https://github.com/baaivision/vid2vid-zero) | Preprint | Mar 2023 |
 | Make-A-Protagonist: Generic Video Editing with An Ensemble of Experts | [arXiv](https://arxiv.org/abs/2305.08850) | [Website](https://make-a-protagonist.github.io/), [GitHub](https://github.com/HeliosZhao/Make-A-Protagonist) | Preprint | May 2023 |
-| UniEdit: A Unified Tuning-Free Framework for Video Motion and Appearance Editing | [arXiv](https://arxiv.org/abs/2402.13185) | [Website](https://jianhongbai.github.io/UniEdit/), [GitHub](https://github.com/JianhongBai/UniEdit) | Preprint | Feb 2023 |
+| UniEdit: A Unified Tuning-Free Framework for Video Motion and Appearance Editing | [arXiv](https://arxiv.org/abs/2402.13185) | [Website](https://jianhongbai.github.io/UniEdit/), [GitHub](https://github.com/JianhongBai/UniEdit) | Preprint | Feb 2024 |
+| Object-Centric Diffusion for Efficient Video Editing | [arXiv](https://arxiv.org/abs/2401.05735) | [Website](https://qualcomm-ai-research.github.io/object-centric-diffusion/) | ECCV | Jan 2024 |
 | AnyV2V: A Tuning-Free Framework For Any Video-to-Video Editing Tasks | [arXiv](https://arxiv.org/abs/2403.14468) | [Website](https://tiger-ai-lab.github.io/AnyV2V/), [GitHub](https://github.com/TIGER-AI-Lab/AnyV2V) | Preprint | Mar 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -194,6 +200,7 @@ The diffusion process defines a Markov chain that progressively adds random nois
 | MagicAnimate: Temporally Consistent Human Image Animation using Diffusion Model | [arXiv](https://arxiv.org/abs/2311.16498) | [Website](https://showlab.github.io/magicanimate/), [GitHub](https://github.com/magic-research/magic-animate) | Preprint | Nov 2023 |
 | Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation | [arXiv](https://arxiv.org/abs/2311.17117) | [Website](https://humanaigc.github.io/animate-anyone/), [Official GitHub](https://github.com/HumanAIGC/AnimateAnyone), [Community Implementation](https://github.com/MooreThreads/Moore-AnimateAnyone) | Preprint | Nov 2023 |
 | Zero-shot High-fidelity and Pose-controllable Character Animation | [arXiv](https://arxiv.org/abs/2404.13680) | | Preprint | Apr 2024 |
+| UniAnimate: Taming Unified Video Diffusion Models for Consistent Human Image Animation | [arXiv](https://arxiv.org/abs/2406.01188) | [Website](https://unianimate.github.io/), [GitHub](https://github.com/ali-vilab/UniAnimate) | Science China Information Science | Jun 2024 |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
