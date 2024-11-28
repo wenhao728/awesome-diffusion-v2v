@@ -1,5 +1,12 @@
-# 📈 V2VBench
-[Leaderboard](./leaderboard.md)
+# 📈 V2VBench <a href="./leaderboard.md"><img src="https://img.shields.io/badge/benchmark-Leaderboard-1abc9c?style=flat"></a>
+
+V2VBench is a comprehensive benchmark designed to evaluate video editing methods. It consists of:
+- 50 standardized videos across 5 categories, and
+- 3 editing prompts per video, encompassing 4 editing tasks: [Huggingface Datasets](https://huggingface.co/datasets/Wenhao-Sun/V2VBench)
+- 8 evaluation metrics to assess the quality of edited videos: [Evaluation Metrics](doc/README.md)
+
+For detailed information, please refer to the accompanying paper.
+
 
 ## Installation
 Clone the repository:
