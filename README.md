@@ -93,6 +93,8 @@ If you find this repository helpful, please consider citing our paper:
 
 ### Structure Conditioning
 
+- (Preprint '24) **StableV2V**: Stablizing Shape Consistency in Video-to-Video Editing, *Liu et al.*
+    - <a href="https://arxiv.org/abs/2411.11045"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://alonzoleeeooo.github.io/StableV2V/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/AlonzoLeeeooo/StableV2V"><img src="https://img.shields.io/github/stars/AlonzoLeeeooo/StableV2V?style=social"></a>
 - (Preprint '24) **EVA**: Zero-shot Accurate Attributes and Multi-Object Video Editing, *Yang et al.*
     - <a href="https://arxiv.org/abs/2403.16111"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://knightyxp.github.io/EVA/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/knightyxp/EVA_Video_Edit"><img src="https://img.shields.io/github/stars/knightyxp/EVA_Video_Edit?style=social"></a>
 - (IJCAI '24) **Diffutoon**: High-Resolution Editable Toon Shading via Diffusion Models, *Duan et al.*
@@ -261,6 +263,9 @@ If you find this repository helpful, please consider citing our paper:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Pose-Guided Human Action Editing
+
+- (Preprint 24') **AnchorCrafter**: Animate CyberAnchors Saling Your Products via Human-Object Interacting Video Generation, *Xu et al.*
+    - <a href="https://arxiv.org/abs/2411.17383v1"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://cangcz.github.io/Anchor-Crafter/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/cangcz/AnchorCrafter"><img src="https://img.shields.io/github/stars/cangcz/AnchorCrafter?style=social"></a>
 - (Preprint 24') **StableAnimator**: High-Quality Identity-Preserving Human Image Animation, *Tu et al.*
     - <a href="https://arxiv.org/abs/2411.17697"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://francis-rings.github.io/StableAnimator/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/Francis-Rings/StableAnimator"><img src="https://img.shields.io/github/stars/Francis-Rings/StableAnimator?style=social"></a>
 - (SINGGRAPH Asia 24') **Fashion-VDM**: Video Diffusion Model for Virtual Try-On, *Karras et al.*
