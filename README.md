@@ -69,6 +69,10 @@ If you find this repository helpful, please consider citing our paper:
 ## Network and Training Paradigm
 ### Temporal Adaption
 
+- (Preprint 24') **VIA**: Unified Spatiotemporal Video Adaptation Framework for Global and Local Video Editing, *Gu et al.*
+    - <a href="https://arxiv.org/abs/2406.12831"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://via-video.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/eric-ai-lab/via-video"><img src="https://img.shields.io/github/stars/eric-ai-lab/via-video?style=social"></a>
+- (ICML 24') **Slicedit**: Zero-Shot Video Editing With Text-to-Image Diffusion Models Using Spatio-Temporal Slices, *Cohen et al.*
+    - <a href="https://arxiv.org/abs/2405.12211"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://matankleiner.github.io/slicedit/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/fallenshock/Slicedit"><img src="https://img.shields.io/github/stars/fallenshock/Slicedit?style=social"></a>
 - (ECCV 24') Video Editing via Factorized Diffusion Distillation, *Singer et al.* 
     - <a href="https://arxiv.org/abs/2403.09334"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://fdd-video-edit.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>
 - (CVPR 24') **MaskINT**: Video Editing via Interpolative Non-autoregressive Masked Transformers, *Ma et al.* 
@@ -88,6 +92,7 @@ If you find this repository helpful, please consider citing our paper:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Structure Conditioning
+
 - (Preprint '24) **EVA**: Zero-shot Accurate Attributes and Multi-Object Video Editing, *Yang et al.*
     - <a href="https://arxiv.org/abs/2403.16111"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://knightyxp.github.io/EVA/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/knightyxp/EVA_Video_Edit"><img src="https://img.shields.io/github/stars/knightyxp/EVA_Video_Edit?style=social"></a>
 - (IJCAI '24) **Diffutoon**: High-Resolution Editable Toon Shading via Diffusion Models, *Duan et al.*
@@ -115,6 +120,8 @@ If you find this repository helpful, please consider citing our paper:
 
 ### Training Modification
 
+- (Preprint 24') Generative Video Propagation, *Liu et al.*
+    - <a href="https://arxiv.org/abs/2412.19761"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
 - (Preprint 24') **Movie Gen**: A Cast of Media Foundation Models, *Polyak et al.*
     - <a href="https://arxiv.org/abs/2410.13720"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://ai.meta.com/research/movie-gen/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/facebookresearch/MovieGenBench"><img src="https://img.shields.io/github/stars/facebookresearch/MovieGenBench?style=social"></a>
 - (Preprint 24') **Still-Moving**: Customized Video Generation without Customized Video Data, *Chefer et al.*
@@ -131,6 +138,8 @@ If you find this repository helpful, please consider citing our paper:
     - <a href="https://arxiv.org/abs/2312.02503"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://ldynx.github.io/SAVE/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/ldynx/SAVE"><img src="https://img.shields.io/github/stars/ldynx/SAVE?style=social"></a>
 - (CVPR 24') **VMC**: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models, *Jeong et al.*
     - <a href="https://arxiv.org/abs/2312.00845"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://video-motion-customization.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/HyeonHo99/Video-Motion-Customization"><img src="https://img.shields.io/github/stars/HyeonHo99/Video-Motion-Customization?style=social"></a>
+- (CVPR 24') **DreamVideo**: Composing Your Dream Videos with Customized Subject and Motion, *Wei et al.*
+    - <a href="https://arxiv.org/abs/2312.04433"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://dreamvideo-t2v.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/ali-vilab/VGen"><img src="https://img.shields.io/github/stars/ali-vilab/VGen?style=social"></a>
 - (ICLR 24') Consistent Video-to-Video Transfer Using Synthetic Dataset, *Cheng et al.*
     - <a href="https://arxiv.org/abs/2311.00213"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/amazon-science/instruct-video-to-video/tree/main"><img src="https://img.shields.io/github/stars/amazon-science/instruct-video-to-video?style=social"></a>
 - (Preprint 23') **VIDiff**: Translating Videos via Multi-Modal Instructions with Diffusion Models, *Xing et al.*
@@ -195,6 +204,9 @@ If you find this repository helpful, please consider citing our paper:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Latent Transition
+
+- (ICML 24') **FRAG**: Frequency Adapting Group for Diffusion Video Editing, *Yoon et al.*
+    - <a href="https://arxiv.org/abs/2406.06044"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
 - (CVPR 24') **GenVideo**: One-shot target-image and shape-aware video editing using T2I diffusion models, *Harsha et al.*
     - <a href="https://arxiv.org/abs/2404.12541"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
 - (Preprint 24') **MotionClone**: Training-Free Motion Cloning for Controllable Video Generation, *Ling et al.*
@@ -249,6 +261,12 @@ If you find this repository helpful, please consider citing our paper:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Pose-Guided Human Action Editing
+- (Preprint 24') **StableAnimator**: High-Quality Identity-Preserving Human Image Animation, *Tu et al.*
+    - <a href="https://arxiv.org/abs/2411.17697"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://francis-rings.github.io/StableAnimator/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/Francis-Rings/StableAnimator"><img src="https://img.shields.io/github/stars/Francis-Rings/StableAnimator?style=social"></a>
+- (SINGGRAPH Asia 24') **Fashion-VDM**: Video Diffusion Model for Virtual Try-On, *Karras et al.*
+    - <a href="https://arxiv.org/abs/2411.00225"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://johannakarras.github.io/Fashion-VDM/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>
+- (Preprint 24') **Animate-X**: Universal Character Image Animation with Enhanced Motion Representation, *Tan et al.*
+    - <a href="https://arxiv.org/abs/2410.10306"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://lucaria-academy.github.io/Animate-X/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/antgroup/animate-x"><img src="https://img.shields.io/github/stars/antgroup/animate-x?style=social"></a>
 - (SCIS 24') **UniAnimate**: Taming Unified Video Diffusion Models for Consistent Human Image Animation, *Wang et al.*  
     - <a href="https://arxiv.org/abs/2406.01188"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://unianimate.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/ali-vilab/UniAnimate"><img src="https://img.shields.io/github/stars/ali-vilab/UniAnimate?style=social"></a>
 - (Preprint 24') **Zero-shot High-fidelity and Pose-controllable Character Animation**, *Zhu et al.*  
@@ -267,7 +285,6 @@ If you find this repository helpful, please consider citing our paper:
     - <a href="https://arxiv.org/abs/2304.01186"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://follow-your-pose.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/mayuelala/FollowYourPose"><img src="https://img.shields.io/github/stars/mayuelala/FollowYourPose?style=social"></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ## 📜 Change Log
