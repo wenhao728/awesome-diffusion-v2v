@@ -47,9 +47,10 @@ If you find this repository helpful, please consider citing our paper:
 </p>
 
 <!-- The diffusion process defines a Markov chain that progressively adds random noise to data and learns to reverse this process to generate desired data samples from noise. Deep neural networks facilitate the transitions between latent states. -->
+- (🚩New) [Dataset](#dataset)
 - [Network and Training Paradigm](#network-and-training-paradigm) | network and data modifications
     - [Temporal Adaption](#temporal-adaption)
-    - [Structure Conditioning](#structure-conditioning)
+    - [Conditioning Branch](#conditioning-branch)
     - [Training Modification](#training-modification)
 - [Attention Feature Injection](#attention-feature-injection) | a class of training-free techniques
     - [Inversion-Based Feature Injection](#inversion-based-feature-injection)
@@ -65,6 +66,10 @@ If you find this repository helpful, please consider citing our paper:
 > [!TIP]
 > The papers are listed in reverse chronological order, formatted as follows:
 > (Conference/Journal Year) Title, *Authors*
+
+## Dataset
+- (Preprint '25) **Senorita-2M**: A High-Quality Instruction-based Dataset for General Video Editing by Video Specialists, *Zi et al.*
+    - <a href="https://arxiv.org/abs/2502.06734"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://senorita-2m-dataset.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/zibojia/SENORITA"><img src="https://img.shields.io/github/stars/zibojia/SENORITA?style=social"></a>
 
 ## Network and Training Paradigm
 ### Temporal Adaption
@@ -91,14 +96,22 @@ If you find this repository helpful, please consider citing our paper:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Structure Conditioning
+### Conditioning Branch
 
+- (Preprint '25) **VACE**: All-in-One Video Creation and Editing, *Jiang et al.*
+    - <a href="https://arxiv.org/abs/2503.07598"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://wan.video/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/Wan-Video/Wan2.1"><img src="https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social"></a>
+- (Preprint '25) **VideoPainter**: Any-length Video Inpainting and Editing with Plug-and-Play Context Control, *Bian et al.*
+    - <a href="https://arxiv.org/abs/2503.05639"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://yxbian23.github.io/project/video-painter/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/TencentARC/VideoPainter"><img src="https://img.shields.io/github/stars/TencentARC/VideoPainter?style=social"></a>
+- (Preprint '24) **StableV2V**: Stablizing Shape Consistency in Video-to-Video Editing, *Liu et al.*
+    - <a href="https://arxiv.org/abs/2411.11045"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://alonzoleeeooo.github.io/StableV2V/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/AlonzoLeeeooo/StableV2V"><img src="https://img.shields.io/github/stars/AlonzoLeeeooo/StableV2V?style=social"></a>
 - (Preprint '24) **EVA**: Zero-shot Accurate Attributes and Multi-Object Video Editing, *Yang et al.*
     - <a href="https://arxiv.org/abs/2403.16111"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://knightyxp.github.io/EVA/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/knightyxp/EVA_Video_Edit"><img src="https://img.shields.io/github/stars/knightyxp/EVA_Video_Edit?style=social"></a>
 - (IJCAI '24) **Diffutoon**: High-Resolution Editable Toon Shading via Diffusion Models, *Duan et al.*
     - <a href="https://arxiv.org/abs/2401.16224"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://ecnu-cilab.github.io/DiffutoonProjectPage/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>
 - (CVPR '24) **FlowVid**: Taming Imperfect Optical Flows for Consistent Video-to-Video Synthesis, *Liang et al.*
     - <a href="https://arxiv.org/abs/2312.17681"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://jeff-liangf.github.io/projects/flowvid/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/Jeff-LiangF/FlowVid"><img src="https://img.shields.io/github/stars/Jeff-LiangF/FlowVid?style=social"></a>
+- (CVPR '24) **AVID**: Any-Length Video Inpainting with Diffusion Model, *Zhang et al.*
+    - <a href="https://arxiv.org/abs/2312.03816"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://zhang-zx.github.io/AVID/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/zhang-zx/AVID"><img src="https://img.shields.io/github/stars/zhang-zx/AVID?style=social"></a>
 - (Preprint '23) Motion-Conditioned Image Animation for Video Editing, *Yan et al.*
     - <a href="https://arxiv.org/abs/2311.18827"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://facebookresearch.github.io/MoCA/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/facebookresearch/MoCA"><img src="https://img.shields.io/github/stars/facebookresearch/MoCA?style=social"></a>
 - (CVPR '24) **LAMP**: Learn A Motion Pattern for Few-Shot-Based Video Generation, *Wu et al.*
@@ -158,8 +171,12 @@ If you find this repository helpful, please consider citing our paper:
 
 ### Inversion-Based Feature Injection
 
+- (ICLR 24') **VideoGrain**: Modulating Space-Time Attention for Multi-grained Video Editing, *Yang et al.*  
+    - <a href="https://arxiv.org/abs/2502.17258"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://knightyxp.github.io/VideoGrain_project_page/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/knightyxp/VideoGrain"><img src="https://img.shields.io/github/stars/knightyxp/VideoGrain?style=social"></a>
 - (TMLR 24') **AnyV2V**: A Tuning-Free Framework For Any Video-to-Video Editing Tasks, *Ku et al.*  
     - <a href="https://arxiv.org/abs/2403.14468"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://tiger-ai-lab.github.io/AnyV2V/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/TIGER-AI-Lab/AnyV2V"><img src="https://img.shields.io/github/stars/TIGER-AI-Lab/AnyV2V?style=social"></a>
+- (Preprint 24') **CoCoCo**: Improving Text-Guided Video Inpainting for Better Consistency, Controllability and Compatibility, *Zi et al.*
+    - <a href="https://arxiv.org/abs/2403.12035"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://cococozibojia.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/zibojia/COCOCO"><img src="https://img.shields.io/github/stars/zibojia/COCOCO?style=social"></a>
 - (ECCV 24') **Object-Centric Diffusion**: Efficient Video Editing, *Kahatapitiya et al.*  
     - <a href="https://arxiv.org/abs/2401.05735"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://qualcomm-ai-research.github.io/object-centric-diffusion/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>
 - (Preprint 24') **UniEdit**: A Unified Tuning-Free Framework for Video Motion and Appearance Editing, *Bai et al.*  
@@ -239,7 +256,8 @@ If you find this repository helpful, please consider citing our paper:
     - <a href="https://arxiv.org/abs/2306.08707"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://videdit.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>  
 - (CVPR 23') Shape-aware Text-driven Layered Video Editing, *Lee et al.*  
     - <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Shape-Aware_Text-Driven_Layered_Video_Editing_CVPR_2023_paper.pdf"><img src="https://img.shields.io/badge/Open%20Access-Paper-%23FFA500"></a> <a href="https://text-video-edit.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/text-video-edit/shape-aware-text-driven-layered-video-editing-release"><img src="https://img.shields.io/github/stars/text-video-edit/shape-aware-text-driven-layered-video-editing-release?style=social"></a>  
-
+- (CVPR 23') Blind Video Deﬂickering by Neural Filtering with a Flawed Atlas, *Lei et al.*  
+    - <a href="https://arxiv.org/abs/2303.08120"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://chenyanglei.github.io/deflicker/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/ChenyangLEI/All-In-One-Deflicker"><img src="https://img.shields.io/github/stars/ChenyangLEI/All-In-One-Deflicker?style=social"></a>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -261,6 +279,9 @@ If you find this repository helpful, please consider citing our paper:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Pose-Guided Human Action Editing
+
+- (Preprint 24') **AnchorCrafter**: Animate CyberAnchors Saling Your Products via Human-Object Interacting Video Generation, *Xu et al.*
+    - <a href="https://arxiv.org/abs/2411.17383v1"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://cangcz.github.io/Anchor-Crafter/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/cangcz/AnchorCrafter"><img src="https://img.shields.io/github/stars/cangcz/AnchorCrafter?style=social"></a>
 - (Preprint 24') **StableAnimator**: High-Quality Identity-Preserving Human Image Animation, *Tu et al.*
     - <a href="https://arxiv.org/abs/2411.17697"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://francis-rings.github.io/StableAnimator/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/Francis-Rings/StableAnimator"><img src="https://img.shields.io/github/stars/Francis-Rings/StableAnimator?style=social"></a>
 - (SINGGRAPH Asia 24') **Fashion-VDM**: Video Diffusion Model for Virtual Try-On, *Karras et al.*
@@ -288,4 +309,5 @@ If you find this repository helpful, please consider citing our paper:
 
 
 ## 📜 Change Log
+- [*25 May 2025*] Fix some typos in the leaderboard.
 - [*28 Nov 2024*] Update the list format to enhance clarity.

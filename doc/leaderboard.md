@@ -3,7 +3,7 @@ The best results within each category are <em>italicized</em>, and the globally 
 
 <table>
 <tr>
-<td> </td> <td> Method </td> <td>Frames<br>Quality⬆ </td> <td> Video<br>Quality⬆ </td> <td> Semantic<br>Consistency⬆  </td> <td> Object<br>Consistency⬆ </td> <td> Frames Text<br>Alignment⬆  </td> <td> Video Text<br>Alignment⬆  </td> <td> Frames<br>Pick Score⬆  </td> <td> Motion<br>Alignment⬆</td>
+<td> </td> <td> Method </td> <td>Frames<br>Quality⬆ </td> <td> Semantic<br>Consistency⬆ </td> <td> Object<br>Consistency⬆ </td> <td> Video<br>Quality⬆ </td>  <td> Frames Text<br>Alignment⬆  </td> <td> Frames<br>Pick Score⬆  </td> <td> Video Text<br>Alignment⬆  </td> <td> Motion<br>Alignment⬆</td>
 </tr>
 <tr>
 <td rowspan="5">Network and<br>Training Paradigm</td>
