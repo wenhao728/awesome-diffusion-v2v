@@ -1,15 +1,14 @@
 #!/usr/bin/env python
-import os
 import logging
+import os
 from collections import OrderedDict
 
 import torch
-from torch import nn
+import torch.utils.checkpoint as checkpoint
 from einops import rearrange
 from timm.models.layers import DropPath
 from timm.models.registry import register_model
-
-import torch.utils.checkpoint as checkpoint
+from torch import nn
 
 logger = logging.getLogger(__name__)
 
@@ -42,7 +41,7 @@ def load_temp_embed_with_mismatch(temp_embed_old, temp_embed_new, add_zero=True)
     return temp_embed_new
 
 
-MODEL_PATH = 'https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/internvideo/viclip/'
+MODEL_PATH = 'https://huggingface.co/OpenGVLab/VBench_Used_Models/blob/main/'
 _MODELS = {
     "ViT-L/14": os.path.join(MODEL_PATH, "ViClip-InternVid-10M-FLT.pth"),
 }
