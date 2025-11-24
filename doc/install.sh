@@ -8,7 +8,7 @@ git clone https://huggingface.co/teowu/DOVER checkpoints/
 wget https://raw.githubusercontent.com/openai/CLIP/main/clip/bpe_simple_vocab_16e6.txt.gz \
     -P checkpoints/ViCLIP
 # model weights
-wget https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/internvideo/viclip/ViClip-InternVid-10M-FLT.pth \
+wget https://huggingface.co/OpenGVLab/VBench_Used_Models/blob/main/ViClip-InternVid-10M-FLT.pth \
     -P checkpoints/ViCLIP
 
 # GMFlow
