@@ -98,6 +98,8 @@ If you find this repository helpful, please consider citing our paper:
 
 ### Conditioning Branch
 
+- (Preprint '26) **TrajectoryMover**: Generative Movement of Object Trajectories in Videos, *Chhatre et al.*
+    - <a href="https://arxiv.org/abs/2603.29092"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://chhatrekiran.github.io/trajectorymover/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/kiranchhatre/TrajectoryMover"><img src="https://img.shields.io/github/stars/kiranchhatre/TrajectoryMover?style=social"></a>
 - (Preprint '25) **VACE**: All-in-One Video Creation and Editing, *Jiang et al.*
     - <a href="https://arxiv.org/abs/2503.07598"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://wan.video/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/Wan-Video/Wan2.1"><img src="https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social"></a>
 - (Preprint '25) **VideoPainter**: Any-length Video Inpainting and Editing with Plug-and-Play Context Control, *Bian et al.*
