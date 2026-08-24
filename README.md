@@ -98,6 +98,8 @@ If you find this repository helpful, please consider citing our paper:
 
 ### Conditioning Branch
 
+- (IEEE TIP '26) **OutDreamer**: Video Outpainting with a Diffusion Transformer, *Zhong et al.*
+    - <a href="https://arxiv.org/abs/2506.22298"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/zhongzero/OutDreamer"><img src="https://img.shields.io/github/stars/zhongzero/OutDreamer?style=social"></a>
 - (Preprint '26) **TrajectoryMover**: Generative Movement of Object Trajectories in Videos, *Chhatre et al.*
     - <a href="https://arxiv.org/abs/2603.29092"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://chhatrekiran.github.io/trajectorymover/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/kiranchhatre/TrajectoryMover"><img src="https://img.shields.io/github/stars/kiranchhatre/TrajectoryMover?style=social"></a>
 - (Preprint '25) **VACE**: All-in-One Video Creation and Editing, *Jiang et al.*
